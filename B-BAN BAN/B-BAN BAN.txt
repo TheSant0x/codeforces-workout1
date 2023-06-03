@@ -1,0 +1,13 @@
+for oooo in range(int(input())):
+    n=int(input())
+    r=n//2+n%2
+    print(r)
+    for i in range((n+1)//2):
+        print(i*3+1 , n*3-i*3)
+    for oooo in range(int(input())):
+    n=int(input())
+    r=n//2+n%2
+    print(r)
+    for i in range((n+1)//2):
+        print(i*3+1 , n*3-i*3)
+    
