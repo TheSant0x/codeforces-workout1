@@ -1,0 +1,23 @@
+for ooo in range(int(input())):
+    n=int(input())
+    b=list(map(int,input().split()))
+    tmp=[0]*100001
+    for e in b:
+        tmp[e]+=1
+    mnn=min(b)
+    mxxx=max(b)
+    if len(set(b)) == 1:
+        print(n*(n-1))
+    else:
+        print(2*tmp[mnn]*tmp[mxxx])for ooo in range(int(input())):
+    n=int(input())
+    b=list(map(int,input().split()))
+    tmp=[0]*100001
+    for e in b:
+        tmp[e]+=1
+    mnn=min(b)
+    mxxx=max(b)
+    if len(set(b)) == 1:
+        print(n*(n-1))
+    else:
+        print(2*tmp[mnn]*tmp[mxxx])
