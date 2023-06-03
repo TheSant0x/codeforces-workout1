@@ -1,0 +1,15 @@
+for oooo in range(int(input())):
+    n,m=map(int,input().split())
+    for x in range(m):
+        s=str(input())
+    if n>m:
+        print("YES")
+    else:
+        print("NO")for oooo in range(int(input())):
+    n,m=map(int,input().split())
+    for x in range(m):
+        s=str(input())
+    if n>m:
+        print("YES")
+    else:
+        print("NO")
