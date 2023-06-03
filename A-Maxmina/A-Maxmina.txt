@@ -1,0 +1,13 @@
+for ooo in range(int(input())):
+    n,q=map(int,input().split())
+    xx=list(map(int,input().split()))
+    if xx != n*[0]:
+        print("YES")
+    else:
+        print("NO")for ooo in range(int(input())):
+    n,q=map(int,input().split())
+    xx=list(map(int,input().split()))
+    if xx != n*[0]:
+        print("YES")
+    else:
+        print("NO")
