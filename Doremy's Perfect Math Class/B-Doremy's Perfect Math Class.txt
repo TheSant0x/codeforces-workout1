@@ -1,0 +1,12 @@
+def find_gcd(x, y):
+    while(y):
+        x, y = y, x % y
+      return x
+      for ooo in range(int(input())):
+    x=int(input())
+    g=list(map(int,input().split()))
+    mx=max(g)
+    gcd=0
+    for i in range(x):
+        gcd=find_gcd(gcd,g[i])
+    print(mx//gcd)
