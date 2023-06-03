@@ -1,0 +1,5 @@
+for ooo in range(int(input())):
+    t=int(input())
+    print(t)for ooo in range(int(input())):
+    t=int(input())
+    print(t)
