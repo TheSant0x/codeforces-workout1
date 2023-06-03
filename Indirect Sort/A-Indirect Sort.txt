@@ -1,0 +1,7 @@
+for ooo in range(int(input())):
+    n=int(input())
+    s=list(map(int,input().split()))
+    ans="NO"
+    if s[0] == 1:
+        ans="YES"
+    print(ans)
