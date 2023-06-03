@@ -1,0 +1,7 @@
+for oooo in range(int(input())):
+    xx=str(input())
+    d="Yes"*20
+    if xx in d:
+        print("YES")
+    else:
+        print("NO")
